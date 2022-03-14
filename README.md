@@ -21,4 +21,7 @@ THEN I am again presented with current and future conditions for that city
 
 ## Application Link
 
+Github Repo for Web Application 
+https://github.com/SAziz24/Weather-Dashboard.git
 ## Contact
+Email: [Sumailahaziz@gmail.com]
