@@ -26,14 +26,19 @@
                 <button id="clearSearchesBtn">Clear Searches</button>
             </div>
         </div>
+        <div id="Current Day-title">
+            <h2>Current Day Forecast</h2>
+        </div>
         <div id="forecast-content">
+            <!-- Container for current day's weather -->
             <div id="current-box">
+                <!-- Current city, date, and icon for conditions -->
                 <div id="current-city-day">
                     <span id="city-name">-</span>
                     <span id="current-date"></span>
                     <span id="span-icon"><img id="current-icon" src=""></span>
                 </div>
-                
+                <!-- Current weather stats for temp, wind, humidity, and UVI -->
                 <div id="current-stats">
                     <div id="temp" class="current-stat">
                         <div id="temp-label" class="current-stat-label">Temp: </div>
@@ -53,6 +58,53 @@
                     </div>
                 </div>
             </div>
-
+            <!-- 5 day container -->
+            <div id="future-box">
+                <!--FORECAST TITLE FOR 5 DAYS-->
+                <div id="forecast-title">
+                    <h2>5-Day Forecast</h2>
+                </div>
+                <div id="five-days">
+                    <div id="day1" class="forecast-days">
+                        <div id="date1" class="forecast-date"></div>
+                        <img id="icon1" class="forecast-icons forecast-stats" src=""/>
+                        <div id="temp1" class="forecast-temps forecast-stats">Temp: -</div>
+                        <div id="wind1" class="forecast-winds forecast-stats">Wind: -</div>
+                        <div id="humidity1" class="forecast-humiditys forecast-stats">Humidity: -</div>
+                    </div>
+                    <div id="day2" class="forecast-days">
+                        <div id="date2" class="forecast-date"></div>
+                        <img id="icon2" class="forecast-icons forecast-stats" src=""/>
+                        <div id="temp2" class="forecast-temps forecast-stats">Temp: -</div>
+                        <div id="wind2" class="forecast-winds forecast-stats">Wind: -</div>
+                        <div id="humidity2" class="forecast-humiditys forecast-stats">Humidity: -</div>
+                    </div>
+                    <div id="day3" class="forecast-days">
+                        <div id="date3" class="forecast-date forecast-stats"></div>
+                        <img id="icon3" class="forecast-icons forecast-stats" src=""/>
+                        <div id="temp3" class="forecast-temps forecast-stats">Temp: -</div>
+                        <div id="wind3" class="forecast-winds forecast-stats">Wind: -</div>
+                        <div id="humidity3" class="forecast-humiditys forecast-stats">Humidity: -</div>
+                    </div>
+                    <div id="day4" class="forecast-days">
+                        <div id="date4" class="forecast-date"></div>
+                        <img id="icon4" class="forecast-icons forecast-stats" src=""/>
+                        <div id="temp4" class="forecast-temps forecast-stats">Temp: -</div>
+                        <div id="wind4" class="forecast-winds forecast-stats">Wind: -</div>
+                        <div id="humidity4" class="forecast-humiditys forecast-stats">Humidity: -</div>
+                    </div>
+                    <div id="day5" class="forecast-days">
+                        <div id="date5" class="forecast-date"></div>
+                        <img id="icon5" class="forecast-icons forecast-stats" src=""/>
+                        <div id="temp5" class="forecast-temps forecast-stats">Temp: -</div>
+                        <div id="wind5" class="forecast-winds forecast-stats">Wind: -</div>
+                        <div id="humidity5" class="forecast-humiditys forecast-stats">Humidity: -</div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </div>
+    <div id="footer"></div>
+            
 </body>
 </html>
