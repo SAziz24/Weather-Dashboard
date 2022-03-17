@@ -12,6 +12,47 @@
         <!-- Page header -->
         <h1>Weather Dashboard</h1>
     </div>
+    <div id="main">
+        <div id="search-aside">
+            <form>
+                <div id="search-row">
+                    <label for="city-input">Search for a city:</label>
+                    <input type='text' id='city-input' name="city-input" placeholder=" ex. Atlanta"></input>
+                </div>
+                <button type="submit">SEARCH</button>
+            </form>
+            <ul id="saved-searches"></ul>
+            <div id="clearSearchDiv">
+                <button id="clearSearchesBtn">Clear Searches</button>
+            </div>
+        </div>
+        <div id="forecast-content">
+            <div id="current-box">
+                <div id="current-city-day">
+                    <span id="city-name">-</span>
+                    <span id="current-date"></span>
+                    <span id="span-icon"><img id="current-icon" src=""></span>
+                </div>
+                
+                <div id="current-stats">
+                    <div id="temp" class="current-stat">
+                        <div id="temp-label" class="current-stat-label">Temp: </div>
+                        <div id="current-temp">-</div>
+                    </div>
+                    <div id="wind" class="current-stat">
+                        <div id="wind-label" class="current-stat-label">Wind: </div>
+                        <div id="current-wind">-</div>
+                    </div>
+                    <div id="humidity" class="current-stat">
+                        <div id="humidity-label" class="current-stat-label">Humidity: </div>
+                        <div id="current-humidity">-</div>
+                    </div>
+                    <div id="uv" class="current-stat">
+                        <div id="uv-label" class="current-stat-label">UV Index: </div>
+                        <div id="current-uv">-</div>
+                    </div>
+                </div>
+            </div>
 
 </body>
 </html>
