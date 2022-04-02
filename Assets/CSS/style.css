@@ -1,3 +1,13 @@
+/* Page color scheme generated with https://coolors.co/ */
+:root {
+    --darkblue: #4042d1;
+    --blue: #52729c;
+    --darkgray: #284B63;
+    --lightblue: #000000;
+    --offwhite: #F5F5F5;
+    --tan: #000000;
+}
+
 /* Setting page background color and font-family pulled from https://fonts.google.com/ */
 body {
     font-family: 'Roboto Condensed', sans-serif;
@@ -16,6 +26,8 @@ body {
     text-align: center;
     border-bottom: var(--lightblue) solid 6px;
 }
+
+
 
 /* Stacking search area vertically */
 #search-aside, 
