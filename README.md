@@ -27,6 +27,11 @@ THEN I am again presented with current and future conditions for that city
 
 ## Technologies 
 ## Mock-Up (Screenshots)
+![HTML webpage titled Weather Dashboard.](./Assets/img/Screenshot%20(21).png)
+
+![HTML webpage titled Weather Dashboard.](./Assets/img/Screenshot%20(23).png)
+
+
 
 ## Application Link
 
